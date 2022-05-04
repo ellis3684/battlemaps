@@ -1,0 +1,43 @@
+.navbar {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.maps-bg {
+  background-image: url("/static/maps/images/maps-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps-bg-about {
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maps-bg-add-battle {
+  height: auto;
+  padding: 50px;
+}
+
+.add-battle-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Cinzel', serif;
+  font-size: 1.7em;
+}
+
+#map {
+  height: 94vh;
+  width: 100%;
+}

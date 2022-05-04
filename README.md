@@ -10,4 +10,4 @@ can be accessed at https://battlesnearme.herokuapp.com/ - where the battle data 
 I've separated this project into two main directories: one ('scrape_battles') which shows the code written in Python's BeautifulSoup library which extracted
 all of the battle data used in this project from Wikipedia. The second main directory ('battlesnearme') contains the Django project folder for this app.
 
-As a history nerd, I had a lot of fun creating this project - and I'm very excited to be able to share this with others. Enjoy!
+As a history nerd, I had a lot of fun creating this project (check out my [project diary](https://docs.google.com/document/d/12CHt1vLfyASo1WSwXVvI1_IysZv9BSkMueWTbdzbBMY/edit?usp=sharing) if you'd like to see my thought process) - and I'm very excited to be able to share this with others. Enjoy!

@@ -83,8 +83,12 @@ WSGI_APPLICATION = 'battlesnearme.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'HOST': os.environ.get('SUPABASE_HOST'),
+        'NAME': os.environ.get('SUPABASE_NAME'),
+        'USER': os.environ.get('SUPABASE_USER'),
+        'PASSWORD': os.environ.get('SUPABASE_PASSWORD'),
+        'PORT': os.environ.get('SUPABASE_DBPORT')
     }
 }
 
